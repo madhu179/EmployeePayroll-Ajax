@@ -1,5 +1,3 @@
-// const { chdir } = require("process");
-// let XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 
 function makePromiseCall(methodType, url, async = true, data=null){
     return new Promise(function (resolve,reject) {
